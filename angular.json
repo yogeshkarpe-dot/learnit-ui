@@ -55,7 +55,8 @@
           },
           "defaultConfiguration": "production"
         },
-        "serve": {
+        "serve":
+        {
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
@@ -79,6 +80,8 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
+              "src/favicon.ico",
+              "src/assets/skills",
               {
                 "glob": "**/*",
                 "input": "public"
@@ -92,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
