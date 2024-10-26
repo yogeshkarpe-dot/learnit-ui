@@ -1,0 +1,40 @@
+<carousel [isAnimated]="true" [interval]="3000" >
+
+  <div class="carousel-caption">
+    <h3>All the skills you need, in one place</h3>
+    <p>Enroll in courses From critical skills to technical topics just learn it, by LearnIT</p>
+    <a class="btn btn-primary" [routerLink]="['/course/browse']" routerLinkActive="router-link-active" >Explore Courses</a>
+  </div>
+    <slide>
+      <div class="dark-overlay"></div>
+      <img src="images/1.png" alt="first slide" style="display: block; width: 100%;">
+    </slide>
+    <slide>
+      <div class="dark-overlay"></div>
+      <img src="images/2.png" alt="second slide" style="display: block; width: 100%;">
+    </slide>
+    <slide>
+      <div class="dark-overlay"></div>
+      <img src="images/3.png" alt="third slide" style="display: block; width: 100%;">
+    </slide>
+  </carousel>
+
+  <div class="container">
+    <div class="trusted-section">
+      <h3>Trusted by over 4000+ individuals from YouTube and millions of learners around the world</h3>
+  </div>
+
+  <app-category [viewType]="'tabs'"></app-category>
+
+  <app-plans-and-pricing></app-plans-and-pricing>
+  </div>
+
+  <!-- <div class="hero">
+    <div class="content">
+      <h1>Your Caption Here</h1>
+      <p>Empowering solutions for a better tomorrow.</p>
+      <a href="#action" class="action-button">Get Started</a>
+    </div>
+  </div> -->
+
+  

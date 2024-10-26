@@ -1,0 +1,88 @@
+
+
+.breadcrumb-card-body{
+  font-weight: 400;
+  font-size: larger;
+  color: white;
+  background-color: rgb(54, 53, 53);
+  box-shadow: 0 0 15px rgba(236, 236, 236, 0.7); /* White shadow */
+  border-radius: 12px; /* Optional: Rounded corners for a modern look */
+  border: none; /* Remove any default borders */
+}
+
+.title-card{
+  background-color: rgb(54, 53, 53);
+  box-shadow: 0 0 15px rgba(236, 236, 236, 0.7); /* White shadow */
+  border-radius: 12px; /* Optional: Rounded corners for a modern look */
+  border: 1px solid rgb(244, 244, 244); /* Remove any default borders */
+}
+
+.card-img-container {
+  width: 100%;
+  height: 250px; /* Adjust height as needed */
+  overflow: hidden; /* Crop the image if it overflows */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  object-position: center; /* Centers the image */
+  border-radius: inherit; /* Inherit radius from parent */
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.custom-card {
+  background-color: #eceff4; /* Light gray close to white */
+  box-shadow: 0 0 15px rgba(236, 236, 236, 0.7); /* White shadow */
+  border-radius: 12px; /* Optional: Rounded corners for a modern look */
+  border: none; /* Remove any default borders */
+}
+
+.profile-img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid blueviolet;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight:bold;
+  background-color: transparent;
+  border-bottom:3px solid #6f00dd;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.reviews .review-item {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+}
+
+.close {
+  font-size: 1.5rem;
+  float: left;
+}
+
+iframe {
+  border: none;
+  border-radius: 8px;
+}
+
+

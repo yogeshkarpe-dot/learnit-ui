@@ -1,0 +1,46 @@
+carousel slide{
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  z-index: 2; /* Ensure it stays above the image and overlay */
+  }
+
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity for darkness */
+    z-index: 1;
+  }
+
+  carousel img{
+    width: 100%;
+  height: 400px; /* Adjust height as needed */
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+  }
+
+  .trusted-section{
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+
+  .trusted-section h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1888ff;
+    margin: 0;
+}

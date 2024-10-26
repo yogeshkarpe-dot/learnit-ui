@@ -1,0 +1,29 @@
+<div class="container mt-4">
+
+    <div class="text-content">
+        <h2>Explore Courses by Categories</h2>
+      </div>
+
+  
+  <!-- list view -->
+   <!-- Full-Width List View -->
+   <div *ngIf="viewType === 'list'" class="list-container">
+    <div *ngFor="let category of categories" class="list-item">
+      <div class="item-info">
+        <h5>{{ category.categoryName }}</h5>
+        <p>{{ category.description }}</p>
+      </div>
+      <a [routerLink]="['/course/category', category.categoryId]" class="btn btn-primary">Explore</a>
+    </div>
+  </div>
+  
+    <!-- Horizontal Tab View -->
+  <div *ngIf="viewType === 'tabs'" class="carousel-container">
+
+    <div *ngFor="let category of categories" class="category-item">
+      <a [routerLink]="['/course/category', category.categoryId]" routerLinkActive="router-link-active"  class="category-button">{{ category.categoryName }}</a>
+    </div>
+
+  </div>
+
+  </div>
